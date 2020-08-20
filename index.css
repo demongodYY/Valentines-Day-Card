@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.bottom {
+  width: 100%;
+  max-width: 450px;
+  height: 650px;
+  background: #a4231f;
+  position: relative;
+  transform: rotate(-7.5deg);
+}
+
+.paper {
+  position: absolute;
+  background: white;
+  border-radius: 4px;
+  border: 2px solid #252225;
+  width: 100%;
+  height: 100%;
+  transform: rotate(7.5deg);
+  padding: 16px 56px;
+}
+
+.content {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #cb262e;
+}
+
+.heart {
+  font-size: 48px;
+  position: absolute;
+  color: #cb262e;
+  right: 56px;
+  bottom: 56px;
+  animation: 0.3s linear 0s infinite alternate bling;
+}
+
+@keyframes bling {
+  from {
+    transform: scale(0.2);
+    opacity: 0.7;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
