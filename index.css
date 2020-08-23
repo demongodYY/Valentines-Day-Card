@@ -43,7 +43,7 @@ div {
   color: #cb262e;
   right: 56px;
   bottom: 56px;
-  animation: 0.3s linear 0s infinite alternate bling;
+  animation: bling 0.3s linear 0s infinite alternate;
 }
 
 @keyframes bling {
