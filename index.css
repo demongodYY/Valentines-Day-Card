@@ -13,6 +13,7 @@ div {
   max-width: 450px;
   height: 650px;
   background: #a4231f;
+  border-radius: 4px;
   position: relative;
   transform: rotate(-7.5deg);
 }
